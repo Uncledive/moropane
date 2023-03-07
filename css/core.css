@@ -90,12 +90,13 @@ a {
 
 .w-100 {
     width: 100%!important;
-    height: 65vh !important;
+    height: 45vh !important;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
+    background: center center no-repeat;
 }
 
 .carousel-caption {
