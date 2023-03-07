@@ -9,10 +9,11 @@ function scrollFunction() {
     } else {
     document.getElementById("myNav").classList.remove("fixed-top");
     document.getElementById("myNav").style.padding = "30px 10px";
-    document.getElementById("logo2").style.height = "80px";
+    document.getElementById("logo2").style.height = "60px";
 
     }
 }
+
 
 let slideIndex = 0;
 showSlides();
