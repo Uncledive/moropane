@@ -1,4 +1,5 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/*@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
 
 html, body {
     font-family: 'Roboto', sans-serif !important;
@@ -90,7 +91,7 @@ a {
 
 .w-100 {
     width: 100%!important;
-    height: 45vh !important;
+    height: 60vh !important;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
@@ -111,7 +112,12 @@ a {
 
 /* img {
     max-height: 50vh;
+}*/
+
+.carousel-item {
+    display: none;
 }
+
 
 .fade {
     animation-name: fade;
@@ -119,10 +125,10 @@ a {
 }
 
 @keyframes fade {
-    from {opacity: .2}
+    from {opacity: .3}
     to {opacity: 1}
 }
-     */
+     
 
 
 section{
@@ -186,7 +192,7 @@ section .section-title{
 }
 
 #what-we-do .card .block-1:before{
-    content: "\f0e7";
+    content: "\f26c";
 }
 
 #what-we-do .card .block-2:before{
@@ -194,15 +200,15 @@ section .section-title{
 }
 
 #what-we-do .card .block-3:before{
-    content: "\f00c";
+    content: "\f0e7";
 }
 
 #what-we-do .card .block-4:before{
-    content: "\f209";
+    content: "\e55b";
 }
 
 #what-we-do .card .block-5:before{
-    content: "\f0a1";
+    content: "\e510";
 }
 
 #what-we-do .card:hover .card-block:before{
