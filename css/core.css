@@ -3,15 +3,22 @@
 
 html, body {
     font-family: 'Roboto', sans-serif !important;
+    
 }
 
 a {
     text-decoration: none;
 }
 
+
+
+#main {
+    text-align: center;
+}
 .topNav {
-    font-size: 12px !important;
-    font-weight: bolder;
+    font-size: 16px !important;
+    font-weight: bold;
+    height: 10vh;
 }
 
 @media (max-width: 767px) { 
@@ -54,11 +61,12 @@ a {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: #259929;}
 
 #myNav {
     transition: 0.4s;
     background: #fff !important;
+    
 }
 
 .subNav {
@@ -67,20 +75,28 @@ a {
 }
 
 .subNav a {
-    color: #fff !important;
+    color: #fff !important
+    ;
+    
 }
 
+.nav-item :hover {
+    font-size: larger;
+    font-weight: bolder;
+}
 .subNav a:hover {
     color: lightgrey !important;
     text-decoration: none !important;
+
 }
 
-.nav-link:hover {
-    text-decoration: underline solid lightgray 25% !important;
-    /* transition: .5s all ease;
+/*.nav-link:hover {
+    text-decoration: underline solid #3e8e41 25% !important;
+    size: 150%;
+     transition: .5s all ease;
     -webkit-transition: .5s all ease;
-    -moz-transition: .5s all ease; */
-}
+    -moz-transition: .5s all ease; 
+} */
 
 .footer {
     height: 30vh;
@@ -192,11 +208,11 @@ section .section-title{
 }
 
 #what-we-do .card .block-1:before{
-    content: "\f26c";
+    content: "\e55b";
 }
 
 #what-we-do .card .block-2:before{
-    content: "\f0eb";
+    content: "\f26c";
 }
 
 #what-we-do .card .block-3:before{
@@ -204,7 +220,7 @@ section .section-title{
 }
 
 #what-we-do .card .block-4:before{
-    content: "\e55b";
+    content: "\3f";
 }
 
 #what-we-do .card .block-5:before{
